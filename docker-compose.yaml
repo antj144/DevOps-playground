@@ -2,7 +2,7 @@
 # version: '3.7'
 services:
   opentofu:
-    image: ghcr.io/opentofu/opentofu:1.6.2
+    image: ghcr.io/opentofu/opentofu:1.10.2
     volumes:
       - ${ACTUAL_PWD:-$PWD}/explore-california-website:/website
       - ${ACTUAL_PWD:-$PWD}/explore-california-infra:/infra
